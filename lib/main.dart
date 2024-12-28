@@ -12,6 +12,19 @@ import 'package:shop_app_myself/ShopApp/shared/network/remote/dio_helper.dart';
 import 'ShopApp/shared/styles/themes.dart';
 import 'bloc_observer.dart';
 
+Widget startScreen({context}) {
+  if (CacheHelper.isExist(key: "onBoard")!) {
+    return LoginScreen();
+  }
+
+  if (CacheHelper.isExist(key: "token")!) {
+    token = CacheHelper.getData(key: "token");
+    return ShopLayout(context: context);
+  }
+
+  return OnBoarding();
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
@@ -28,19 +41,21 @@ void main() async {
     startScreen = LoginScreen();
   }
 
-  if (CacheHelper.isExist(key: "token")!) {
-    token = CacheHelper.getData(key: "token");
-    startScreen = ShopLayout();
-  }
+  // if (CacheHelper.isExist(key: "token")!) {
+  //   token = CacheHelper.getData(key: "token");
+  //   startScreen = ShopLayout(
+  //     context: context,
+  //   );
+  // }
   print(token);
 
-  runApp(MyApp(startScreen: startScreen));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final Widget startScreen;
+  // final Widget startScreen;
 
-  const MyApp({super.key, required this.startScreen});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -54,8 +69,10 @@ class MyApp extends StatelessWidget {
           theme: lightTheme(),
           darkTheme: darkTheme(),
           themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
+          // themeMode: ThemeMode.light,
           debugShowCheckedModeBanner: false,
-          home: startScreen,
+          home: startScreen(context: context),
+          // home: startScreen,
         ),
       ),
     );

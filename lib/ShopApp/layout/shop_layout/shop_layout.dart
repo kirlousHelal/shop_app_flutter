@@ -4,11 +4,13 @@ import 'package:shop_app_myself/ShopApp/layout/shop_layout/cubit/cubit.dart';
 import 'package:shop_app_myself/ShopApp/layout/shop_layout/cubit/states.dart';
 
 class ShopLayout extends StatelessWidget {
-  const ShopLayout({super.key});
+  final BuildContext context;
+  ShopLayout({super.key, required this.context}) {
+    ShopCubit.get(context).getAllData();
+  }
 
   @override
   Widget build(BuildContext context) {
-    ShopCubit.get(context).getAllData();
     return BlocConsumer<ShopCubit, ShopStates>(
       listener: (context, state) {},
       builder: (context, state) {

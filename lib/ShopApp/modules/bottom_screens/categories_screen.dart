@@ -47,7 +47,7 @@ class CategoriesScreen extends StatelessWidget {
           separatorBuilder: (context, index) => Row(
                 children: [
                   const SizedBox(
-                    width: 130,
+                    width: 120,
                     height: 10,
                   ),
                   Expanded(

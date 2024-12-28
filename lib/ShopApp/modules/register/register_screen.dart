@@ -31,7 +31,11 @@ class RegisterScreen extends StatelessWidget {
                 token = state.loginModel!.data!.token!;
                 CacheHelper.saveData(key: "token", value: token);
                 navigateTo(
-                    context: context, screen: ShopLayout(), goBack: false);
+                    context: context,
+                    screen: ShopLayout(
+                      context: context,
+                    ),
+                    goBack: false);
               } else {
                 showToast(
                   message: state.loginModel!.message!,
