@@ -78,7 +78,6 @@ Here are some screenshots of the app to showcase its interface and features:
 <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
 *Login Page.*
 
-![Screenshot 2](Project_Images/Screenshot_20241228_020946.png) 
 <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
 *Register Page.*
 
