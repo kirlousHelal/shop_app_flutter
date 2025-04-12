@@ -32,6 +32,15 @@ By leveraging **Flutter** for the user interface and **Firebase** for backend se
 - **Firebase**: Backend services for authentication, database (Firestore), and storage.
 - **Dart**: Programming language used to build the app.
 
+## Skills Used
+
+- **Flutter**: Framework for building the app's UI and managing business logic.
+- **Firebase**: Backend services for user authentication and data storage.
+- **Dart**: Programming language for building the app.
+- **Git/GitHub**: Version control and project management.
+- **Responsive Design**: Ensuring a smooth experience across various screen sizes.
+- **Real-Time Data**: Firebase Firestore for real-time product and cart updates.
+
 ## Installation
 
 Follow these steps to run the project locally:
