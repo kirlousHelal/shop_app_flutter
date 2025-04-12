@@ -75,19 +75,20 @@ Follow these steps to run the project locally:
 
 Here are some screenshots of the app to showcase its interface and features:
 
-![Screenshot 1](Project_Images/Screenshot_20241228_020852.png)  
+<img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
 *Login Page.*
 
-![Screenshot 2](Project_Images/Screenshot_20241228_020946.png)  
+![Screenshot 2](Project_Images/Screenshot_20241228_020946.png) 
+<img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
 *Register Page.*
 
-![Screenshot 3](Project_Images/Screenshot_20241228_021607.png)  
+<img src="Project_Images/Screenshot_20241228_021607.png" width="300"/> 
 *Home Page.*
 
-![Screenshot 4](Project_Images/Screenshot_20241228_021646.png)  
+<img src="Project_Images/Screenshot_20241228_021646.png" width="300"/> 
 *Favorites Page.*
 
-![Screenshot 5](Project_Images/Screenshot_20241228_021616.png)  
+<img src="Project_Images/Screenshot_20241228_021616.png" width="300"/> 
 *Home List Products Page.*
 
 *(Replace the placeholder links with actual paths to your images. If you want to use screenshots from your local device, you can upload them to your GitHub repository and link to them, or use an image hosting service.)*
