@@ -75,20 +75,32 @@ Follow these steps to run the project locally:
 
 Here are some screenshots of the app to showcase its interface and features:
 
-<img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
-*Login Page.*
+<div style="display: flex; justify-content: space-around;">
+    <div style="text-align: center;">
+        <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/>
+        <p><strong>Login Page</strong></p>
+    </div>
+    <div style="text-align: center;">
+        <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/>
+        <p><strong>Register Page</strong></p>
+    </div>
+    <div style="text-align: center;">
+        <img src="Project_Images/Screenshot_20241228_021607.png" width="300"/>
+        <p><strong>Home Page</strong></p>
+    </div>
+</div>
 
-<img src="Project_Images/Screenshot_20241228_020852.png" width="300"/> 
-*Register Page.*
+<div style="display: flex; justify-content: space-around;">
+    <div style="text-align: center;">
+        <img src="Project_Images/Screenshot_20241228_021646.png" width="300"/>
+        <p><strong>Favorites Page</strong></p>
+    </div>
+    <div style="text-align: center;">
+        <img src="Project_Images/Screenshot_20241228_021616.png" width="300"/>
+        <p><strong>Home List Products Page</strong></p>
+    </div>
+</div>
 
-<img src="Project_Images/Screenshot_20241228_021607.png" width="300"/> 
-*Home Page.*
-
-<img src="Project_Images/Screenshot_20241228_021646.png" width="300"/> 
-*Favorites Page.*
-
-<img src="Project_Images/Screenshot_20241228_021616.png" width="300"/> 
-*Home List Products Page.*
 
 *(Replace the placeholder links with actual paths to your images. If you want to use screenshots from your local device, you can upload them to your GitHub repository and link to them, or use an image hosting service.)*
 
