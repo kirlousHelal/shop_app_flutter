@@ -79,7 +79,7 @@ Here are some screenshots of the app to showcase its interface and features:
     <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/>
     <p style="margin-top: 10px;"><strong>Login Page</strong></p>
 </div> | <div style="text-align: center;">
-    <img src="Project_Images/Screenshot_20241228_020852.png" width="300"/>
+    <img src="Project_Images/Screenshot_20241228_020946.png" width="300"/>
     <p style="margin-top: 10px;"><strong>Register Page</strong></p>
 </div> | <div style="text-align: center;">
     <img src="Project_Images/Screenshot_20241228_021607.png" width="300"/>
